@@ -22,3 +22,6 @@ WORKDIR /julibert/
 COPY ./ /julibert/
 
 CMD ["python3", "serve.py"]
+RUN ["python3", "-c", "from init_model import Initializer; Initializer()"]
+
+ENV TRANSFORMERS_OFFLINE=1
