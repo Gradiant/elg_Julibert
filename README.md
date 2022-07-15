@@ -3,7 +3,7 @@
 
 This repository contains a dockerized API built over Julibert, Softcatalá playground of BERT models trained in catalan, for integrate it into the ELG. 
 
-Its original code canbe found [here](https://github.com/Softcatala/julibert)
+Its original code can be found [here](https://github.com/Softcatala/julibert)
 
 
 # Usage
